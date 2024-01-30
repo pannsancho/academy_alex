@@ -2,8 +2,9 @@ def devision(a: int | float, b: int | float):
     return a/b
 
 def main():
-    d = devision(1, 2)
-    print(d)
+    for i, j in enumerate([1, 2, 3, 4], 1):
+        d = devision(i, j)
+        print(d)
 
 if __name__=="__main__":
     main()
